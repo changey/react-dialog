@@ -1,0 +1,29 @@
+.react-dialog {
+  position: absolute;
+  top: 40%;
+  left: 32%;
+  width: 370px;
+}
+
+div.inside {
+    width: 345px;
+}
+
+button {
+  min-width: 63px;
+  min-height: 35px;
+}
+
+.cancel-button {
+  margin-left: 15px;
+  background: linear-gradient(#F9F9F9, #F1F1F1);
+}
+
+button {
+  @include linear-gradient(#dbe5f5, #b8daf0);
+  @include border-radius(0.5em);
+  @include box-sizing(border-box);
+  box-shadow: 0px 2px 6px -3px #000;
+  border: 1px solid #E2E3CD;
+  padding: 0.7em 1em;
+}
